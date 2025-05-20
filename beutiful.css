@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+.navbar ul{
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.h h1{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 200px;
+    display: flex;
+}
+
+.h p{
+    font-size: 10px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 200px;
+    padding: 5px 10px;
+}
+
+.navbar i{
+   font-size: 20px;
+   margin-right: 100px;
+   margin-top: 30px;
+}
+.navbar button{
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+    margin-top: 5px;
+}
+.center h1{
+    font-size: 40px;
+}
+.center p{
+    font-size: 20px;
+    margin: 5px;
+}
+.center button{
+    background-color: yellow;
+    border: 10px solid yellow;
+    border-radius: 45%;
+}
+.c {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+.c img{
+    height: 400px;
+    width: 400px;
+}
+.f{
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+.m p{
+    border: 2px solid black;
+}
+.n p{
+    border: 2px solid black;
+}
+.x p{
+    border: 2px solid black;
+}
+.s{
+    display: flex;
+    gap: 40px;
+    padding: 10px 20px;
+}
+.s img{
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+}
+.s span img{
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-left: 300px;
+}

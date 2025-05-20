@@ -1,0 +1,355 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Zarrin Blog
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-900">
+  <header class="flex items-center justify-between px-6 py-4 border-b border-gray-200">
+   <div class="flex items-center space-x-2">
+    <img alt="Zarrin logo letter Z in purple background" class="w-8 h-8" height="32" src="https://storage.googleapis.com/a1aa/image/d8672e90-d91b-4ac9-dbbc-2ee4c66a3b8d.jpg" width="32"/>
+    <span class="font-bold text-xl select-none">
+     Zarrin
+    </span>
+   </div>
+   <nav class="hidden md:flex items-center space-x-6 text-sm text-gray-600 font-semibold">
+    <a class="hover:text-gray-900" href="#">
+     Blog
+    </a>
+    <a class="hover:text-gray-900" href="#">
+     About
+    </a>
+    <button aria-label="Search" class="text-gray-600 hover:text-gray-900">
+     <i class="fas fa-search">
+     </i>
+    </button>
+   </nav>
+   <button class="hidden md:inline-block bg-purple-600 text-white text-sm font-semibold px-5 py-2 rounded-md hover:bg-purple-700 transition">
+    Contact Us
+   </button>
+   <!-- Mobile menu placeholder -->
+   <button aria-label="Open menu" class="md:hidden text-gray-600 hover:text-gray-900 focus:outline-none">
+    <i class="fas fa-bars text-xl">
+    </i>
+   </button>
+  </header>
+  <!-- Hero Section -->
+  <section class="bg-purple-600 relative overflow-hidden px-6 py-12 md:py-20 md:px-16 lg:px-24">
+   <div aria-hidden="true" class="absolute top-0 left-0 w-full h-full pointer-events-none">
+    <svg class="w-full h-full" fill="none" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M0 40c40 0 80-40 120-40s80 40 120 40 80-40 120-40 80 40 120 40 80-40 120-40 80 40 120 40v80H0V40z" fill="rgba(255 255 255 / 0.1)">
+     </path>
+    </svg>
+   </div>
+   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+    <div class="flex-1 text-white max-w-xl">
+     <p class="text-xs font-semibold uppercase mb-2 opacity-80">
+      Featured Post
+     </p>
+     <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-4">
+      How AI will
+      <br/>
+      Change the Future
+     </h1>
+     <p class="text-xs md:text-sm opacity-90 mb-6 leading-relaxed">
+      The future of AI will see more robots having advanced intelligence, increased capabilities, and becoming more personal and possibly cute. For example home robots will overcome navigation, direction
+     </p>
+     <button class="bg-white text-purple-600 text-xs font-semibold px-5 py-2 rounded-md hover:bg-gray-100 transition">
+      Read more
+     </button>
+    </div>
+    <div class="flex-1 max-w-sm md:max-w-md rounded-lg overflow-hidden shadow-lg">
+     <img alt="3D glowing blue and purple neon AI robot face icon on hexagonal platform" class="w-full h-auto object-cover" height="320" loading="lazy" src="https://storage.googleapis.com/a1aa/image/96fd9b49-5c00-49b9-dc49-cd75809f5c72.jpg" width="400"/>
+    </div>
+   </div>
+   <div aria-hidden="true" class="absolute bottom-0 right-0 w-full h-20 pointer-events-none">
+    <svg class="w-full h-full" fill="none" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M0 0c40 0 80 40 120 40s80-40 120-40 80 40 120 40 80-40 120-40 80 40 120 40 80-40 120-40v40H0V0z" fill="rgba(255 255 255 / 0.1)">
+     </path>
+    </svg>
+   </div>
+  </section>
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-6 py-12 md:px-16 md:py-20 space-y-16">
+   <!-- Featured Article -->
+   <article class="max-w-4xl mx-auto rounded-lg overflow-hidden shadow-lg">
+    <img alt="Man wearing VR headset holding controller with blue lighting" class="w-full h-auto object-cover" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/2709bf71-1731-48d2-2a59-76605baee83b.jpg" width="900"/>
+    <div class="bg-white p-8 rounded-b-lg">
+     <p class="text-xs text-gray-400 uppercase font-semibold mb-1">
+      Development | 11 March 2023
+     </p>
+     <h2 class="text-xl font-semibold mb-3 leading-snug">
+      How to make a Game look more attractive with New VR &amp; AI Technology
+     </h2>
+     <p class="text-sm text-gray-600 mb-4 leading-relaxed">
+      Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
+     </p>
+     <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+      Read More
+     </a>
+    </div>
+   </article>
+   <!-- Our Recent Post Section -->
+   <section>
+    <div class="flex items-center justify-between mb-6">
+     <h3 class="text-lg font-semibold text-gray-900">
+      Our Recent Post
+     </h3>
+     <button class="bg-purple-600 text-white text-xs font-semibold px-4 py-1 rounded-md hover:bg-purple-700 transition">
+      View All
+     </button>
+    </div>
+    <!-- Recent Post Large -->
+    <article class="flex flex-col md:flex-row gap-6 mb-10">
+     <img alt="Man wearing VR headset holding controller with blue lighting" class="w-full md:w-1/2 rounded-lg object-cover" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/2709bf71-1731-48d2-2a59-76605baee83b.jpg" width="400"/>
+     <div class="md:w-1/2 flex flex-col justify-center">
+      <p class="text-xs text-gray-400 uppercase font-semibold mb-1">
+       Development | 11 March 2023
+      </p>
+      <h4 class="text-base font-semibold mb-2 leading-snug">
+       How to make a Game look more attractive with New VR &amp; AI Technology
+      </h4>
+      <p class="text-xs text-gray-600 mb-3 leading-relaxed">
+       Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More
+      </a>
+     </div>
+    </article>
+    <!-- Recent Post Grid 3 -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
+     <article>
+      <img alt="Tropical island with seaplane landing on water aerial view" class="rounded-lg object-cover w-full h-40 sm:h-32" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9ec93221-b7e0-4b61-58ec-3c9ab96e72b1.jpg" width="400"/>
+      <p class="text-xs text-gray-400 uppercase font-semibold mt-2 mb-1">
+       Travel | 11 March 2023
+      </p>
+      <h5 class="text-sm font-semibold mb-1 leading-snug">
+       8 Rules Of Travelling In Sea You Need To Know
+      </h5>
+      <p class="text-xs text-gray-600 mb-2 leading-relaxed">
+       Traveling is one his many advantages. Some of the advantages of transporting goods by sea include: you can ship large volumes at costs
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More..
+      </a>
+     </article>
+     <article>
+      <img alt="Modern office workspace with computer and plants" class="rounded-lg object-cover w-full h-40 sm:h-32" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/df652622-dbfb-46f2-c059-677408142916.jpg" width="400"/>
+      <p class="text-xs text-gray-400 uppercase font-semibold mt-2 mb-1">
+       Development | 11 March 2023
+      </p>
+      <h5 class="text-sm font-semibold mb-1 leading-snug">
+       How to build strong portfolio and get a Job in UI/UX
+      </h5>
+      <p class="text-xs text-gray-600 mb-2 leading-relaxed">
+       Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Overcome the digital divide with additional clickthroughs You
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More..
+      </a>
+     </article>
+     <article>
+      <img alt="Soccer ball in goal net on field" class="rounded-lg object-cover w-full h-40 sm:h-32" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/aad4348c-cfdf-4172-d985-52ec57f97ee2.jpg" width="400"/>
+      <p class="text-xs text-gray-400 uppercase font-semibold mt-2 mb-1">
+       Sports | 11 March 2023
+      </p>
+      <h5 class="text-sm font-semibold mb-1 leading-snug">
+       How to Be a Professional Footballer in 2023
+      </h5>
+      <p class="text-xs text-gray-600 mb-2 leading-relaxed">
+       Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Survive strategies to ensure proactive
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More..
+      </a>
+     </article>
+    </div>
+   </section>
+   <section>
+    <div class="flex items-center justify-between mb-6">
+     <h3 class="text-lg font-semibold text-gray-900">
+      Popular Post
+     </h3>
+     <button class="bg-purple-600 text-white text-xs font-semibold px-4 py-1 rounded-md hover:bg-purple-700 transition">
+      View all
+     </button>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
+     <article>
+      <img alt="Train on railroad through mountain forest" class="rounded-lg object-cover w-full h-40 sm:h-32" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b5d484b1-819c-4eb0-d2f7-f3c278526404.jpg" width="400"/>
+      <p class="text-xs text-gray-400 uppercase font-semibold mt-2 mb-1">
+       Travel | 11 March 2023
+      </p>
+      <h5 class="text-sm font-semibold mb-1 leading-snug">
+       Train Or Bus Journey?Which one suits?
+      </h5>
+      <p class="text-xs text-gray-600 mb-2 leading-relaxed">
+       The choice between a train or bus journey depends on various factors such as the distance of the journey, the time available, the cost, and person
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More..
+      </a>
+     </article>
+     <article>
+      <img alt="Open laptop with food website on screen on desk" class="rounded-lg object-cover w-full h-40 sm:h-32" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/67811ecd-2e01-4d9d-c0a4-5ef97030f728.jpg" width="400"/>
+      <p class="text-xs text-gray-400 uppercase font-semibold mt-2 mb-1">
+       Development | 11 March 2023
+      </p>
+      <h5 class="text-sm font-semibold mb-1 leading-snug">
+       Best Website to research for your next project
+      </h5>
+      <p class="text-xs text-gray-600 mb-2 leading-relaxed">
+       Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Overcome the digital divide with additional clickthroughs
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More..
+      </a>
+     </article>
+     <article>
+      <img alt="Man dancing on metal structure outdoor" class="rounded-lg object-cover w-full h-40 sm:h-32" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fee97462-256f-41f5-3b74-ed16bd316d0e.jpg" width="400"/>
+      <p class="text-xs text-gray-400 uppercase font-semibold mt-2 mb-1">
+       Sports | 11 March 2023
+      </p>
+      <h5 class="text-sm font-semibold mb-1 leading-snug">
+       How to Be a Dancer in 2023 with proper skills?
+      </h5>
+      <p class="text-xs text-gray-600 mb-2 leading-relaxed">
+       Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Survive strategies to ensure proactive
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More..
+      </a>
+     </article>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+     <article>
+      <img alt="Person throwing color powder in air" class="rounded-lg object-cover w-full h-40 sm:h-32" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6b29df80-9adb-468c-58e2-9a59f877a274.jpg" width="400"/>
+      <p class="text-xs text-gray-400 uppercase font-semibold mt-2 mb-1">
+       Travel | 11 March 2023
+      </p>
+      <h5 class="text-sm font-semibold mb-1 leading-snug">
+       Who is the best singer on chart? Know him?
+      </h5>
+      <p class="text-xs text-gray-600 mb-2 leading-relaxed">
+       chart by Billboard which ranks the all-time greatest artists based on their performance on the weekly Billboard Hot 100 and
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More..
+      </a>
+     </article>
+     <article>
+      <img alt="Man talking on phone in office with laptop" class="rounded-lg object-cover w-full h-40 sm:h-32" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c0ce9e50-d082-42bf-2206-21f80546c476.jpg" width="400"/>
+      <p class="text-xs text-gray-400 uppercase font-semibold mt-2 mb-1">
+       Development | 11 March 2023
+      </p>
+      <h5 class="text-sm font-semibold mb-1 leading-snug">
+       How to start export import business from home?
+      </h5>
+      <p class="text-xs text-gray-600 mb-2 leading-relaxed">
+       Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Overcome the digital divide with additional clickthroughs
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More..
+      </a>
+     </article>
+     <article>
+      <img alt="Chocolate drinks and milk with chocolates on table" class="rounded-lg object-cover w-full h-40 sm:h-32" height="250" loading="lazy" src="https://storage.googleapis.com/a1aa/image/28658aac-92c9-4295-6bb4-0993bed74714.jpg" width="400"/>
+      <p class="text-xs text-gray-400 uppercase font-semibold mt-2 mb-1">
+       Sports | 11 March 2023
+      </p>
+      <h5 class="text-sm font-semibold mb-1 leading-snug">
+       Make some drinks with chocolates chocolates and milk
+      </h5>
+      <p class="text-xs text-gray-600 mb-2 leading-relaxed">
+       Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Survive strategies to ensure proactive
+      </p>
+      <a class="text-purple-600 text-xs font-semibold hover:underline" href="#">
+       Read More..
+      </a>
+     </article>
+    </div>
+   </section>
+  </main>
+  <section class="bg-purple-600 text-white px-6 py-12 md:py-20 md:px-16 lg:px-24 relative overflow-hidden">
+   <div aria-hidden="true" class="absolute inset-0 pointer-events-none">
+    <svg class="w-full h-full" fill="none" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M0 40c40 0 80-40 120-40s80 40 120 40 80-40 120-40 80 40 120 40 80-40 120-40 80 40 120 40v80H0V40z" fill="rgba(255 255 255 / 0.1)">
+     </path>
+    </svg>
+   </div>
+   <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-6 leading-snug">
+     Get our stories delivered From
+     <br/>
+     us to your inbox weekly.
+    </h2>
+    <form class="flex max-w-md mx-auto gap-2">
+     <input aria-label="Your Email" class="flex-grow rounded-md px-4 py-2 text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-white" placeholder="Your Email" required="" type="email"/>
+     <button class="bg-white text-purple-600 font-semibold text-sm px-5 py-2 rounded-md hover:bg-gray-100 transition" type="submit">
+      Get started
+     </button>
+    </form>
+    <p class="text-xs opacity-60 mt-3 max-w-xs mx-auto">
+     Get a modern newsletter tips, adverts by spam kindly. If you interested offer personal right to approve the business you.
+    </p>
+   </div>
+  </section>
+  <footer class="bg-white border-t border-gray-200 py-8 px-6 md:px-16 lg:px-24">
+   <div class="max-w-4xl mx-auto text-center">
+    <div class="flex items-center justify-center space-x-2 mb-4">
+     <img alt="Zarrin logo letter Z in purple background" class="w-8 h-8" height="32" src="https://storage.googleapis.com/a1aa/image/d8672e90-d91b-4ac9-dbbc-2ee4c66a3b8d.jpg" width="32"/>
+     <span class="font-bold text-lg select-none">
+      Zarrin
+     </span>
+    </div>
+    <nav class="flex justify-center space-x-6 text-xs text-gray-600 mb-4">
+     <a class="hover:text-gray-900" href="#">
+      Home
+     </a>
+     <a class="hover:text-gray-900" href="#">
+      Blog
+     </a>
+     <a class="hover:text-gray-900" href="#">
+      About
+     </a>
+     <a class="hover:text-gray-900" href="#">
+      Contact Us
+     </a>
+    </nav>
+    <div class="flex justify-center space-x-3 mb-4">
+     <a aria-label="Facebook" class="text-purple-600 hover:text-purple-800" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="text-purple-600 hover:text-purple-800" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="LinkedIn" class="text-purple-600 hover:text-purple-800" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="text-purple-600 hover:text-purple-800" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+    </div>
+    <p class="text-xs text-gray-400 select-none">
+     Copyright ©2023 All Right Reserved
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
